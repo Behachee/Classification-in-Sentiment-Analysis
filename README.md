@@ -34,4 +34,4 @@ Ensure the `requirements.txt` file is in the same directory as where you're runn
 
 ## Using the Environment
 
-With the virtual environment activated and the dependencies installed, you're now ready to run your Python project. Remember to activate the virtual environment each time you work on the project by following the activation steps above.
+With the virtual environment activated and the dependencies installed, you're now ready to run your Python project. **Remember to activate the virtual environment each time you work on the project by following the activation steps above.**
