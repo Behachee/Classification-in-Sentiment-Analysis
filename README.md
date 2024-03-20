@@ -8,7 +8,7 @@
 
 2. **Create a Virtual Environment**: Open a terminal or command prompt and navigate to your project's directory. Then, create a virtual environment by running:
    ```bash
-   python3.10 -m venv myenv
+   python3 -m venv myenv
    ```
    Replace `myenv` with the name you wish to give to your virtual environment.
 
