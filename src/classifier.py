@@ -160,11 +160,11 @@ class ClassifierDataset(Dataset):
 
     def __getitem__(self, idx):
         item = {key: torch.tensor(val[idx]) for key, val in self.encodings.items()}
-        if self.labels.size:
+        if self.labels is not None and self.labels.size:
             item['labels'] = torch.tensor(self.labels[idx])
-        if self.aspects.size:
+        if self.aspects is not None and  self.aspects.size:
             item['aspects'] = torch.tensor(self.aspects[idx])
-        if self.context_encodings:
+        if self.context_encodings is not None and self.context_encodings:
             item['context'] = {key: torch.tensor(val[idx]) for key, val in self.context_encodings.items()}
         return item
 
