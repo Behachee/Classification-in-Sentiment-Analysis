@@ -4,7 +4,7 @@ import argparse
 
 import torch
 
-from src.classifier import Classifier
+from classifier import Classifier
 
 
 def set_reproducible():
